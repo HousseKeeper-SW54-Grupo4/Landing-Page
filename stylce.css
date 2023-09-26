@@ -1,5 +1,6 @@
 html, body {
-    scroll-behavior: smooth
+    scroll-behavior: smooth;
+    background-color: rgb(1, 21, 48)
 }
 
 .header {
@@ -67,8 +68,10 @@ ul{
 }
 
 .title {
+    font-size: 5rem;
     color: #D6A049;
     padding: 20px;
+    margin-bottom: 6rem; /* Agrega un margen inferior */
 }
 
 .services .card-container {
@@ -184,6 +187,201 @@ ul{
     padding: 10px;
     border: none;
     color: white;
+}
+
+
+/* Estilos para la sección "About Us" */
+.about-us {
+    background-color: rgb(1, 21, 48); /* Color de fondo de la sección */
+    padding: 6rem 0; /* Espaciado interior superior e inferior */
+    text-align: center; /* Centra el contenido */
+}
+
+.about-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.about-content h2 {
+    color: rgb(214, 160, 73); /* Color del título */
+    font-size: 5rem;
+    margin-bottom: 2rem;
+}
+
+.about-details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2rem;
+}
+
+.about-image {
+    width: 250px; /* Ancho de la imagen cuadrada */
+    height: 250px; /* Altura de la imagen cuadrada */
+    background-image: url('images/housekeeper_logo.png'); /* Ruta de la imagen */
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%; /* Bordes redondos para que sea cuadrada */
+    margin-right: 2rem;
+}
+
+.about-text {
+    background-color: white; /* Color de fondo del cuadro de texto */
+    padding: 2rem;
+    border-radius: 10px; /* Bordes redondos para el cuadro de texto */
+    flex: 1;
+}
+
+.about-text p {
+    color: black; /* Color del texto dentro del cuadro de texto */
+    font-size: 1.6rem;
+}
+
+/* Estilos para la sección "Our Team" */
+.our-team {
+    background-color: #001530; /* Color de fondo azul marino */
+    color: #fff; /* Color del texto */
+    text-align: center; /* Centra el contenido */
+
+}
+
+.team-row {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.team-member {
+    flex: 1 1 calc(33.33% - 2rem); /* 33.33% de ancho con espacio de 2rem entre elementos */
+    text-align: center;
+    margin-bottom: 3rem; /* Separación entre los miembros en la misma fila */
+}
+
+.member-image img {
+    width: 360px; /* Ancho de las imágenes */
+    height: 360px; /* Altura de las imágenes */
+    border-radius: 50%; /* Bordes redondos para las imágenes */
+    margin: 0 auto 1rem; /* Espacio entre la imagen y los detalles */
+}
+
+.member-details p {
+    font-size: 1.4rem;
+
+}
+
+
+/* Estilos para la sección "Contact" */
+
+.contact-content {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.contact-rectangle {
+    background-color: white;
+    border-radius: 10px;
+    border: 5px solid rgb(214, 160, 73);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 60%; /* Establece un ancho máximo para el rectángulo */
+    margin: 40px auto; /* Centra el rectángulo horizontalmente */
+}
+
+/* Estilos para las columnas dentro del rectángulo */
+.contact-form {
+    flex: 1.5;
+    padding: 40px;
+    text-align: center;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid blue;
+}
+
+.contact-form textarea {
+    height: 150px;
+}
+
+.send-button {
+    background-color: rgb(214, 160, 73);
+    width: 50%;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 10px auto
+}
+
+.contact-social {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.follow-us {
+    font-size: 55px;
+    color: rgb(214, 160, 73);
+}
+.follow-us-small {
+    font-size: 40px;
+    color: rgb(214, 160, 73);
+}
+.contact-social {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icon {
+    margin-top: 30px;
+}
+
+.social-icon a {
+    margin: 0 15px;
+}
+
+.social-icon img {
+    width: 40px;
+    height: 40px;
+}
+
+
+/* Estilos para el pie de página */
+.footer {
+    text-align: center; /* Centra horizontalmente el contenido del pie de página */
+    margin: 20px 0; /* Agrega margen superior e inferior */
+    color: rgb(214, 160, 73); /* Cambia el color del texto */
+}
+
+
+.footer-row {
+    margin: 25px 0; /* Espacio vertical entre las filas de texto */
+    display: flex; /* Hace que los elementos dentro de la fila se muestren en una sola fila */
+    justify-content: center; /* Centra horizontalmente los elementos dentro de la fila */
+}
+
+.footer-item {
+    margin: 0 10px; /* Espacio horizontal entre los elementos */
+    padding: 0 10px; /* Espacio interno horizontal entre los elementos */
+    font-size: 14px; /* Tamaño de letra */
+}
+
+.footer-item a {
+    color: rgb(214, 160, 73); /* Cambia el color del enlace en el pie de página */
+    text-decoration: none; /* Elimina el subrayado del enlace */
 }
 
 
