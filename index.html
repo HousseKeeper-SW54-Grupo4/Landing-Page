@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="stylce.css">
+    <title>HouseKeeper</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <img class="logo" src="images/logo.png" alt="Logo">
+            <ul class="nav-list ms-auto">
+                <li class="nav-item"><a href="#home" class="active">Home</a></li>
+                <li class="nav-item"><a href="#">About Us</a></li>
+                <li class="nav-item"><a href="#services">Services</a></li>
+                <li class="nav-item"><a href="#plans">Plans</a></li>
+                <li class="nav-item"><a href="#">Our Team</a></li>
+                <li class="nav-item"><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <section class="home" id="home">
+        <button class="try-now">Try it now</button>
+    </section>
+
+    <section class="services" id="services">
+        <h1 class="title">Services</h1>
+        <div class="card-container">
+            <div class="card">
+                <img src="images/img_service_keeper.png" alt="Imagen 1">
+                <div class="card-content">
+                    <h2>Service Keeper</h2>
+                    <p>Enter information you want
+                        to share with your guests about the food hall,
+                        as well as table reservation options and/or
+                        room service with personalized dishes
+                    </p>
+                    <button class="read-more">Read More</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/img_service_traveler.png" alt="Imagen 2">
+                <div class="card-content">
+                    <h2>Service Traveler</h2>
+                    <p>Connect the room maintenance
+                        service with your guests to simplify their demands</p>
+                    <button class="read-more">Read More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="plans" id="plans">
+        <h1 class="title">Plans</h1>
+        <div class="card-container">
+            <div class="card standard">
+                <div class="stripe"></div>
+                <div class="card-content">
+                    <h2>Standard</h2>
+                    <p>30 rooms</p>
+                    <p>S/. 150 mensual</p>
+                    <button class="subscribe" style="background-color: #FFC286;">Subscribe</button>
+                </div>
+            </div>
+            <div class="card pro">
+                <div class="stripe"></div>
+                <div class="card-content">
+                    <h2>Pro</h2>
+                    <p>50 rooms</p>
+                    <p>S/. 250 mensual</p>
+                    <button class="subscribe" style="background-color: #EA9D51;">Subscribe</button>
+                </div>
+            </div>
+            <div class="card premium">
+                <div class="stripe"></div>
+                <div class="card-content">
+                    <h2>Premium</h2>
+                    <p>Unlimited</p>
+                    <p>S/. 400 mensual</p>
+                    <button class="subscribe" style="background-color: #F1C94E;">Subscribe</button>
+                </div>
+            </div>
+        </div>
+        <div class="card custom">
+            <div class="stripe"></div>
+            <div class="card-content">
+                <div class="left-column">
+                    <h2>Custom plan</h2>
+                    <p>How many rooms do you have?</p>
+                    <h3 class="rooms">15 rooms</h3>
+                </div>
+                <div class="arrow">&#8594;</div>
+                <div class="right-column">
+                    <h2>Prices from S/. 6.50 per room</h2>
+                    <p>Plans to satisfy each stage of your hotel</p>
+                    <h3 class="total">S/. 97.50</h3>
+                    <button class="subscribe" style="background-color: #D6A049;">Subscribe</button>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
